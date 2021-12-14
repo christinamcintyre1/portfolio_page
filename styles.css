@@ -1,0 +1,36 @@
+.grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    gap: 5px;
+    height: 90vh;
+}
+
+.navbar {
+    background:hsl(100, 44%, 49%);
+    grid-area: navbar;
+    padding: 10px;
+
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em ;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+header, footer {
+    grid-column: 1 / 4;
+    
+}
