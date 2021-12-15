@@ -34,6 +34,26 @@ header, footer {
     grid-column: 1 / 4;
     
 }
+
+img {
+    float: left;
+    margin: 0 20px 20px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.content {
+    width: 75%;
+     margin-left: 200px;
+    font-size: 20px;
+}
+
+.content-item {
+    padding: 5px;
+}
 .card {
     background: #fff;
     border-radius: 5px;
@@ -43,4 +63,8 @@ header, footer {
     justify-content: space-between;
     padding: 20px;
     position: relative;
+}
+
+.centered{
+    margin-left: 34em;
 }
