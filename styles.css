@@ -44,6 +44,9 @@ p {
     text-align: justify;
     text-indent: 2em;
 }
+a {
+    color:darkgreen
+}
 
 .content {
     width: 75%;
@@ -54,7 +57,16 @@ p {
 .content-item {
     padding: 5px;
 }
-.card {
+
+.list {
+    list-style-type: none;
+}
+
+.list > li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* .card {
     background: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,7 +75,7 @@ p {
     justify-content: space-between;
     padding: 20px;
     position: relative;
-}
+} */
 
 .centered{
     margin-left: 34em;
