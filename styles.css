@@ -41,6 +41,7 @@ img {
 }
 
 p {
+    
     text-align: justify;
     text-indent: 2em;
 }
@@ -59,7 +60,9 @@ a {
 }
 
 .list {
+    font-size: 20px;
     list-style-type: none;
+    max-width: 900px;
 }
 
 .list > li {
