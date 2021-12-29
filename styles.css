@@ -9,6 +9,8 @@ body {
     background-image: url("leaves.jpeg");
     max-width: 2000px;
     height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .navbar {
     background:hsl(100, 44%, 49%);
@@ -42,6 +44,7 @@ header, footer {
 img {
     float: left;
     margin: 0 20px 20px 10px;
+    border:hsl(100, 44%, 49%) 10px solid;
 }
 
 p {
@@ -50,7 +53,11 @@ p {
     text-indent: 2em;
 }
 a {
-    color:darkgreen
+    color: hsl(120, 44%, 49%); 
+}
+
+a:hover {
+    color:darkgoldenrod;
 }
 
 .content {
@@ -76,8 +83,22 @@ a {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+.btn:hover{  
+    background-color: hsl(120, 44%, 49%);
+    
+}
+.btn-primary:hover {
+    border-color:hsl(125, 100%, 75%)
+}
+.btn {
+    background-color: hsl(100, 44%, 49%);
+    color: #fff;
+    border: hsl(100, 44%, 49%) 2px solid;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
-
-.centered{
+.centered {
     margin-left: 34em;
 }
